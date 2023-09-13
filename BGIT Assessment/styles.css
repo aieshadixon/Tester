@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    max-width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item {
+        flex: 1;
+        color: black;
+        padding: 5px;
+        color: black;
+        margin: 10px;
+
+}
+
+@media screen and (max-width:600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+}
