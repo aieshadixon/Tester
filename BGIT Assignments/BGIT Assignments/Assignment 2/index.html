@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+    <title>Simple Webpage Styling with CSS</title>
+    <style>
+        /* Here I am declaring the variables using :root so that I can reuse the values throughout the css styling */
+ :root {
+    --main-color: rgb(100, 149, 237);
+ }
+ 
+ body {
+    background-color: var(--main-color);
+
+ }
+ h1 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        color:chocolate;
+        text-align: center;
+}
+p {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        line-height: normal;
+        color:black;
+}
+    
+img {
+        display:block;
+        margin: auto;
+        max-width: 100%;     /* To note, making the image bigger than it's original size would have altered its quality */
+        height: auto;
+        border-radius: 5px;
+}
+
+/* Styling the navigation bar */
+
+.navbar {
+        display: flex;
+        align-items: center;
+}
+.item {
+        flex: 1;
+        color: black;
+        padding: 10px;
+        background-color: #73b5c2;
+        color: black;
+        text-align: center;
+        margin: 2px;
+        border-color: black;
+        border-radius: 25px;
+        box-shadow: 2px 2px 2px black;
+}
+
+/* Styling the main part of the webpage which incudes the paragraphs */
+
+.container {
+        background-color:#bbe4e9;
+        padding: 15px;
+        margin: 15px;
+        border-style: double;
+        border-color: black;
+}
+    
+/* Styling the button at the bottom of the webpage */
+
+.button {
+        color:black;
+        text-align: center;
+        font-size: 15px;
+        display: block;
+        padding: 15px;
+        background-color: transparent;
+        border-radius: 25px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+}
+.button:hover {
+        background-color: var(--main-color);
+        cursor: pointer;
+        transition: 0.4s;
+}
+
+    /* Here I am applying a shake animation for the button when it is clicked */
+
+    @keyframes shake {
+    0%{
+      transform: translateX(0);
+    }
+    25%{
+      transform: translateX(-5px);
+    }
+      
+    50%{
+      transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100%{
+      transform: translateX(5px);
+    }
+  }
+
+  .button:hover {
+    animation: shake 1s ease infinite;
+  }
+
+    /* Here I am setting a condition for the navigation bar so that it becomes a column when the screen is less than 600px */
+
+    @media screen and (max-width:600px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="item">
+        <a href="#">Home</a>
+        </div>
+         <div class="item">
+        <a href="#">About</a>
+        </div>
+         <div class="item">
+        <a href="#">Gallery</a>
+         </div>
+          <div class="item">
+        <a href="#">Contact</a>
+          </div>
+    </nav>
+    <h1>Mallorca</h1>
+    <div class="container">
+    
+    <p>Mallorca is a spanish island located in the bellaric sea with a population of 945,000. The island's beautiful beaches and all year round warm weather make it a popular holiday destination. </p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94AsYyMHhF44vwv8af-g7-rvtlk1x1ebNAg&usqp=CAU" alt="Palma de Mallorca">
+<p>The following are some of the places that I visited on my trip to Mallorca in 2022.</p>
+
+
+
+<p>Cala Major is such an iconic location - for me anyway. There is so much happening in the area and everything you need is close by: Beach Restaurants Transport Supermarkets The locals are friendly and you feel this warmth from them that makes you want to return there on your next visit. 
+
+I was captivated by the stunning views of the sea and the warm-hued sunsets in the evenings. Walking the streets of Cala Major made me feel like I was living the highlife except with the richness of LIFE. I felt really immersed in the island lifestyle.</p>
+
+<p>Take a bus from the busy city centre of Palma de Mallorca to the charming village of Valldemossa. There you can find souvenir shops, beautiful stone buildings and gorgeous scenery. 
+
+Visit one of the local cafes and treat yourself to a fruity and refreshing glass of sangria whilst you sit and enjoy the atmosphere. Pair it with a Coca de Patata, native to Valldemossa with its bun like appearance and surprisingly sweet flavour that makes you want to eat more than one at a time. 
+
+This place is oozing with character.</p>
+
+
+<p>You can take a bus from Valldemossa to Deia. The journey involves driving along winding roads that wrap around the mountains. 
+
+Be sure to sit on the left side of the bus to get the best view of the spectacular scenery outside. 
+
+As the journey takes your higher up the mountains, you will be able to see the glistening blue waters down below.
+
+I recommend visiting the restaurant called Restaurant Nama. It is a Thai restaurant with an amazing view that overlooks the greenery of the trees and mountains surrounding the area.</p>
+
+
+<p>An hour long journey from Palma will lead you to the beautiful town of Soller.
+
+Take a ride on the Soller train to Centre Comercial, where you will find independent shops and cafes as well as a cathedral.
+
+I recommend going to Sa Lluna Dolca which specialises in traditional Mallorquin food. There is also a weekly market that takes place every Saturday from 9am to 2pm with individual stalls selling local goods.</p>
+
+<p>Of course the island of Mallorca has a lot more to offer, however, these are the places that I experienced.</p>
+    <button class="button">
+        Find Out More ☀️
+    </button>
+</div>
+</body>
+</html>

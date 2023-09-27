@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+}
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,20 @@
+Theory Questions
+
+Define HTML and explain its role in web development:
+HTML stands for HyperText Markup language and it is used as the foundation of a website. Its role in web development is to give structure to a webpage through the use of elements and content.
+
+Describe the box model in CSS and how it influences the layout of the elements in HTML and provide examples of each:
+The box model gives a reference to the areas in and around the content displayed on a webpage. It influences the way in which elements are displayed on a webpage through certain dimensions or styling given to them in CSS. Examples of box model elements are Padding (the space within the content element), Border (The circumference of the element and its padding),
+and Margin (The space outside and surrounding the element).
+
+Explain the difference between inline and block-level elements in HTML and provide examples of each:
+Inline elements allow other elements to be slotted in next to them, they do not start on a new line, and they only take up space that is respective to them. On the other hand, block-level elements always start on a new line, they stretch the full width of the page, and do not allow other elements to be slotted in next to them. An example of an inline element is <img> and an example of a block-level element is <div>.
+
+What is the purpose of CSS media queries? How are they used to implement responsive design?
+The purpose of CSS media queries is to allow for webpages and websites to change their layout depending on the size of the screen that they are being viewed on.
+The are used to implement repsonsive design because they allow for webpages to be rendered effectively on any type of screen so it does not matter if a user is 
+viewing a website on a phone, tablet or laptop as the layout which change to suit the screen size.
+
+Describe the importance of semantic HTML elements and provide at least three examples of such elements:
+Semantic elements describe their purpose and the content that they are displaying. They are important because they provide structure and context to the webage so
+that it is more readable for browsers and search engines. Examples of such elements include; <header>, <main>, <footer>.
