@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(244, 198, 115);
+}
+
+h1 {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(51, 12, 12);
+    line-height: normal;
+    margin: 0 auto;
+    border: 10px;
+    border-radius: 30px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: gray;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+.article-container {
+    background-color: rgb(210, 241, 210);
+    padding: 10px;
+    border: 20px;
+    border-radius: 30px;
+}
+.highlight:hover {
+    background-color: pink;
+    
+}
+.article-paragraph-one::first-letter {
+    color: rgb(203, 87, 107);
+}
+h1:hover {
+    color: green;
+    text-decoration: underline;
+}
