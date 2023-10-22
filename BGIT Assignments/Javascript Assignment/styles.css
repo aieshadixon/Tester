@@ -1,0 +1,22 @@
+body {
+    background-color: azure;
+}
+h1 {
+    color:darkorange;
+}
+.container {
+    text-align: center;
+    color: black;
+}
+button {
+    background-color: black;
+    color: #ffff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
