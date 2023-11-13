@@ -1,0 +1,2 @@
+What is JSX in React?
+JSX stands for JavaScript XML and it allows for the use of HTML syntax in React. An example of JSX code is <h1> Example </h1>;
