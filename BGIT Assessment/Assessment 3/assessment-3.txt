@@ -1,2 +1,26 @@
+Explain the concept of React components. How do they contribute to building user interfaces in React?
+React components are pieces of code that can be used repeatedly and can work independently without affecting any other part of the app when changes are made to them.
+There are two types of React components; class components and function components.
+They contribuute to building user interfaces in React because they allow you to break down the different elements you want in your app and make it easier to work on each part separately. 
+
+
 What is JSX in React?
-JSX stands for JavaScript XML and it allows for the use of HTML syntax in React. An example of JSX code is <h1> Example </h1>;
+JSX stands for JavaScript XML and it allows for the use of HTML syntax in React. An example of JSX code is:
+const example = <h1> Example </h1>;
+
+Briefly describe the virtual DOM in React. How does it contribute to improving performance in web applications?
+The virtual DOM stands for Document Object model and it is a tool that represents real user interfaces (or the structure and content of a webpage) virtually.
+Virtual DOM makes it easier for developers to write code by providing a more efficient way of updating code as it speeds up the process of development and rendering.
+
+List and explain three main phases of a React components lifecycle. Provide an example of a situation where each phase might be useful.
+1. Mounting phase is when the component is put into the DOM.
+2. Updating phase if when the states of the components are updated or changed after their previous initialisation.
+3. Unmounting phase is when the component is removed from the DOM and there is only one method of unmounting that React supports.
+
+
+Discuss the difference between props and state in React.
+The difference between props and state in React is that props are transport data from the parent component through to the child components whereas state is what is used to maintain data from inside a component but not from the outside.
+
+Explain the significance of the shouldComponentUpdate method in the component lifecycle. How does it impact the rendering of components?
+The significance of the shouldComponentUpdate method is that it allows the component to update or re-render only when there has been changes made to the state or props of the component. It aids in the performance of rendering components.
+

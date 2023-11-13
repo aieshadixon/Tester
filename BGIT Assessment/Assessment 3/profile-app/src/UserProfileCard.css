@@ -1,9 +1,15 @@
+body {
+    background-color: lightblue;
+}
 .user {
-    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffff;
     padding: 30px;
     margin: 50px 50px 15px;
+    border-radius: 5px;
 
 }
+
 
 button {
     background-color: cornflowerblue;
