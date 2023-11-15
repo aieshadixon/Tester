@@ -1,0 +1,32 @@
+.bg-primary {
+  background-color: #b8d5e6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+p {
+  color: #ff7f7d;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #b8d5e6;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  color: black;
+  background-color: darkmagenta;
+  border-radius: 5px;
+}/*# sourceMappingURL=styles.css.map */
