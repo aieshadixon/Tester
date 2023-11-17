@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Tangerine&family=VT323&display=swap');
 
 /* Add variables here */
-
+:root {
+  --black: #000;
+}
 
 
 body {
@@ -76,8 +78,8 @@ header {
   background-color: rgb(139, 102, 241);
   font-family: 'Poppins';
   font-size: 16px;
-   border-color: black;
-   box-shadow: 2px 2px 4px #000;
+   border-color: var(--black);
+   box-shadow: 2px 2px 4px var(--black);
    border-radius: 15px;
 }
 
@@ -101,11 +103,12 @@ article {
 
 img {
   max-width: 100%;
+  object-fit: contain;
 }
 
 .card-body {
   background-color: #ffff;
-  box-shadow:#000;
+  box-shadow: var(--black);
   border-color: rgb(139, 102, 241);
   display: flex;
   flex-direction: column;
@@ -132,7 +135,7 @@ img {
 /* styling card buttons */
 .btn-primary {
   background-color: rgb(139, 102, 241);
-  color: #000;
+  color: var(--black);
   font-size: 18px;
   border-radius: 30px;
   margin: 15px;
@@ -140,8 +143,8 @@ img {
   .btn:hover{
     cursor: pointer;
     background-color: transparent;
-    color: black;
-    border-color: black;
+    color: var(--black);
+    border-color: var(--black);
     animation: shake 1.5s ease infinite;
 }
 
@@ -159,7 +162,7 @@ img {
 
 .news-container {
   background-color: #cc89fb;
-  box-shadow: 2px 2px 4px #000;
+  box-shadow: 2px 2px 4px var(--black);
   padding: 20px;
   margin-top: 20px;
   border-radius: 5px;
@@ -178,13 +181,18 @@ img {
   font-size: 15px;
   display: flex;
   justify-content: center;
-  color: #000;
+  color: var(--black);
   background-color: rgb(139, 102, 241);
   border: black;
-  box-shadow: 2px 2px 4px #000;
+  box-shadow: 2px 2px 4px var(--black);
   border-radius: 20px;
   margin: 30px auto;
   padding: 6px;
+}
+
+.colorBtn:hover {
+  background-color: transparent;
+  transition: 0.5s;
 }
 
 /* styling the footer */
@@ -212,7 +220,7 @@ footer {
 }
 
 .footerNav li a {
-  color: #000;
+  color: var(--black);
    text-decoration: none;
   margin: 20px;
 }
@@ -225,7 +233,7 @@ ion-icon {
   margin: 10px 20px;
   height: 35px;
   width: 35px;
-  color: #000;
+  color: var(--black);
 }
 
 .socialIcons a:hover {

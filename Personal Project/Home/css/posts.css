@@ -3,7 +3,9 @@
 
 
 /* Variables */
-
+:root {
+  --black:#000;
+}
 /* Basic styling */
 
 /* Nav styling */
@@ -24,7 +26,7 @@
 }
 
 .nav-item {
-  color:#000;
+  color: var(--black);
   font-family: 'Poppins';
   font-size: 17px;
   margin-left: 30px;
@@ -104,12 +106,12 @@ button {
 button {
   padding: 8px 15px;
   background-color: rgb(139, 102, 241); 
-  color: #000;
+  color: var(--black);
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  border-color: black; 
-  box-shadow: 2px 2px 4px #000;
+  border-color: var(--black); 
+  box-shadow: 2px 2px 4px var(--black);
   border-radius: 20px;
 }
 
@@ -143,7 +145,7 @@ footer {
 }
 
 .footerNav li a {
-  color: #000;
+  color: var(--black);
    text-decoration: none;
   margin: 20px;
 }
@@ -156,7 +158,7 @@ ion-icon {
   margin: 10px 20px;
   height: 35px;
   width: 35px;
-  color: #000;
+  color: var(--black);
 }
 
 .socialIcons a:hover {
