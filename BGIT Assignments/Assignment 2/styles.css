@@ -1,0 +1,103 @@
+ body {
+    background-color:cornflowerblue;
+
+ }
+ h1 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        color:chocolate;
+        text-align: center;
+    }
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        line-height: normal;
+        color:black;
+    }
+    
+    img {
+        
+    }
+
+    /* Styling the navigation bar */
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        
+
+    }
+    .item {
+        flex: 1;
+        color: black;
+        padding: 10px;
+        background-color: #73b5c2;
+        color: black;
+        text-align: center;
+        margin: 2px;
+        border-color: black;
+        border-radius: 25px;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    /* Styling the main part of the webpage which incudes the paragraphs */
+
+    .container {
+        background-color:#bbe4e9;
+        padding: 15px;
+        margin: 15px;
+        border-style: double;
+        border-color: black;
+    }
+    
+    /* Styling the button at the bottom of the webpage */
+
+    .button {
+        color:black;
+        text-align: center;
+        font-size: 15px;
+        display: block;
+        padding: 15px;
+        background-color: transparent;
+        border-radius: 25px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+    }
+    .button:hover {
+        background-color: cornflowerblue;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    /* Here I am applying a shake animation for the button when it is clicked */
+
+    @keyframes shake {
+    0%{
+      transform: translateX(0);
+    }
+    25%{
+      transform: translateX(-5px);
+    }
+      
+    50%{
+      transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100%{
+      transform: translateX(5px);
+    }
+  }
+
+  .button:hover {
+    animation: shake 1s ease infinite;
+  }
+
+    /* Here I am setting a condition for the navigation bar so that it becomes a column when the screen is less than 600px */
+
+    @media screen and (max-width:600px) {
+    .navbar {
+        flex-direction: column;
+    }
+}

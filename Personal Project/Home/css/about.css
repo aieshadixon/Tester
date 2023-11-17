@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Tangerine&family=VT323&display=swap');
+
+/* varialbles */
+
+:root {
+  --black: #000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.navbar-brand {
+  color: #82acff;
+  font-family: 'VT323', cursive;
+  font-size: 3px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+.nav-item {
+  color: var(--black);
+  font-family: 'Poppins';
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: 'VT323';
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+    background: radial-gradient(rgb(252, 115, 239) 9%, rgb(139, 102, 241) 72%);
+    border-radius: 15px;
+}
+
+main {
+    background-color: #f4ebfb;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+article {
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin: 20px;
+}
+
+
+/* styling the footer */
+footer {
+  background-color: #e7cff9;
+  
+}
+
+.footerContainer {
+  width:100%;
+  padding: 70px 30px 20px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px;
+  list-style: none;
+}
+
+.footerNav li a {
+  color: var(--black);
+   text-decoration: none;
+  margin: 20px;
+}
+
+.socialIcons {
+  display:flex;
+  justify-content: center;
+}
+ion-icon {
+  margin: 10px 20px;
+  height: 35px;
+  width: 35px;
+  color: var(--black);
+}
+
+.socialIcons a:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footerBottom {
+  text-align: center;
+  margin: 15px;
+}

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Tangerine&family=VT323&display=swap');
+
+/* variables */
+:root {
+  --black:#000;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: gray;
+    background-color: rgb(34, 33, 33);
+}
+
+/* navigation bar */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.navbar-brand {
+  color: #82acff;
+  font-family: 'VT323', cursive;
+  font-size: 3px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+.nav-item {
+  color: var(--black);
+  font-family: 'Poppins';
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+/* heading */
+.jumbotron {
+  font-family: 'VT323';
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+  padding: 45px;
+  background: radial-gradient(rgb(252, 115, 239) 9%, rgb(139, 102, 241) 72%);
+  border-radius: 15px;
+}
+
+/* The contact details section */
+
+p {
+  font-family: 'Poppins';
+  font-size: 13px;
+}
+
+li {
+  list-style: none;
+  font-family: 'Poppins';
+  font-size: 13px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.container {
+  background-color: #e7cff9;
+  font-family: 'VT323';
+}
+
+ul {
+  text-decoration: none;
+}
+
+/* newsletter */
+.newsletter {
+  margin-top: 20px;
+}
+
+/* Styling the form */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin: 10px;
+}
+
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: rgb(139, 102, 241);
+  color: var(--black);
+  border: none;
+  margin-right: 50px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px var(--black);
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.button {
+  font-family: 'Poppins';
+}
+
+/* footer */
+
+footer {
+  background-color: #e7cff9;
+}
+
+.footerContainer {
+  width:100%;
+  padding: 70px 30px 20px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px;
+  list-style: none;
+}
+
+.footerNav li a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 15px;
+  margin: 20px;
+}
+
+.socialIcons {
+  display:flex;
+  justify-content: center;
+}
+ion-icon {
+  margin: 10px 20px;
+  height: 35px;
+  width: 35px;
+  color: var(--black);
+}
+
+.socialIcons a:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footerBottom {
+  text-align: center;
+  margin: 15px;
+}

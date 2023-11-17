@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+      <link rel="stylesheet" href="./css/styles.css">
+      <!-- link icons -->
+     <!-- link bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Tangerine&family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+     <!-- Header -->
+    <header>
+      
+    </header>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e7cff9;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html" style="font-size: 40px;">Sun&Moon <ion-icon name="heart-outline"></ion-icon> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./posts.html">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Logo -->
+
+    <!-- Hero Section -->
+    <article>
+      <div class="hero-section">
+       <div class="jumbotron text-center">
+  <h1 class="display-4 fw-bold">Hello...<ion-icon name="heart-outline"></ion-icon></h1>
+  <p class="lead">I write about what I'm passionate about.</p>
+  
+    <a class="btn btn-lg" href="./about.html" role="button">View more</a>
+  </p>
+</div>
+      </div>
+    </article>
+    <!-- Posts -->
+    <!-- Add cards for posts -->
+    <!-- add section tag here -->
+<main>
+    <!-- Post 1 -->
+    <article class="recent-posts">
+      <h1>Recent Posts</h1>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <span class="border border-5">
+            <img
+              src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWF0Y2hhJTIwbGF0dGV8ZW58MHx8MHx8fDA%3D"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Why I Love Matcha</h5>
+              <span class="badge text-dark" style="background-color: rgb(230, 251, 230);">Food</span><span class="post-date">22 OCT 2023</span>
+              <p class="card-text">Everytime I try a new superfood - which matcha is labelled as - I research the benefits of it for my body.</p>
+               <a href="./posts.html" class="btn btn-primary" style="color: #000; background-color: rgb(139, 102, 241); border-color: black; box-shadow: 2px 2px 4px #000; border-radius: 20px;">Read More</a>
+            </span>
+            </div>
+          </div>
+        </div>
+        <!-- Post 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <span class="border border-5">
+            <img
+              src="https://images.unsplash.com/photo-1543083115-638c32cd3d58?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2NpJTIwZml8ZW58MHx8MHx8fDA%3D"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Afrofuturism</h5>
+              <span class="badge text-dark" style="background-color: rgb(218, 218, 250);">Culture</span><span class="post-date">19 SEP 2023</span>
+              <p class="card-text">Let's talk about Afrofuturism. Throughout history, black people across the diaspora have been the pioneers and inventors of many great things.</p>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: #000;
+background-color: rgb(139, 102, 241); border-color: black; box-shadow: 2px 2px 4px #000; border-radius: 20px;">
+  Read More
+</button>
+</span>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Afrofuturism</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Let's talk about Afrofuturism. Throughout history, black people across the diaspora have been the pioneers and inventors of many great things. Afrofuturism is one of those great things. It is a genre that intertwines black culture with science fiction, technology, and history. This fantastical combination is portrayed through literature, music, and art - specifically visual art.
+
+It has its roots in black activism and 1980s technoculture.
+
+The term Afrofuturism was first coined by Mark Dery in 1993.
+
+A mix of the past, present, and future.
+
+I am captivated by the sheer greatness that the afrofuturistic aesthetic exudes. It extraordinarily showcases the imagination and creativity of black people. Black culture is rich with diversity, so why not celebrate it in such a way?
+
+It is important because it is a genre solely based on the African diaspora. 
+
+There is also an element of escapism. Given the deep-rooted struggles and hardships of black people throughout history and modern society, Afrofuturism creates a place for freedom and liberation. 
+
+I am provided with a renewed sense of love for my heritage.
+
+
+   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+        <!-- Post 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <span class="border border-5">
+            <img
+              src="https://images.unsplash.com/photo-1488085061387-422e29b40080?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D/"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Travelling As A Black Person</h5>
+              <span class="badge text-dark" style="background-color: rgb(245, 182, 203);">Travel</span><span class="post-date">16 AUG 2023</span>
+              <p class="card-text">There have been many times where I have come across TikTok videos or Tweets discussing the topic of travelling whilst black.</p>
+              <a href="./posts.html" class="btn btn-primary" style="color: #000; background-color: rgb(139, 102, 241); border-color: black; box-shadow: 2px 2px 4px #000; border-radius: 20px;">Read More</a>
+              </span>
+            </div>
+          </div>
+        </div>
+    <!-- post 4 -->
+    <div class="col-md-4">
+          <div class="card mb-4">
+            <span class="border border-5">
+            <img
+              src="https://unsplash.com/photos/yellow-sunflower-in-close-up-photography-YXWoEn5uOvg"
+              alt=""
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title"> I Don't Want To Be A Strong Black Woman</h5>
+              <span class="badge text-dark" style="background-color: rgb(250, 196, 177);">Life</span><span class="post-date">7 JUL 2023</span>
+              <p class="card-text">A thought came to me one day whilst I was thinking about my purpose in this world. As I've become more attuned to the world around me and learnt about my place in it, I’ve become aware that there is a problem with the way black women are treated.</p>
+              <a href="#" class="btn btn-primary" style="color: #000; background-color: rgb(139, 102, 241); border-color: black; box-shadow: 2px 2px 4px #000; border-radius: 20px;">Read More</a>
+              </span>
+            </div>
+          </div>
+        </div>
+    
+    <!-- post 5 -->
+    <div class="col-md-4">
+          <div class="card mb-4" height="50px">
+            <span class="border border-5">
+            <img
+              src="https://images.unsplash.com/photo-1566993850067-bb8df9c9807e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFsbG9yY2F8ZW58MHx8MHx8fDA%3D"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mallorca</h5>
+              <span class="badge text-dark" style="background-color: rgb(245, 182, 203);"> Travel </span><span class="post-date">4 JUN 2023</span>
+              <p class="card-text">Mallorca is a spanish island located in the bellaric sea with a population of ... The island's beautiful beaches and all year round warm weather make it a popular holiday destination.</p>
+              <a href="./posts.html" class="btn btn-primary" style="color: #000; background-color: rgb(139, 102, 241); border-color: black; box-shadow: 2px 2px 4px #000; border-radius: 20px;">Read More</a>
+             </span>
+            </div>
+          </div>
+        </div>
+    <!-- post 6 -->
+    <div class="col-md-4">
+          <div class="card mb-4">
+            <span class="border border-5">
+            <img
+              src="data:image/png;base64,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"
+              class=""
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Is Genderless Fashion The Future?</h5>
+              <span class="badge text-dark" style="background-color: rgb(248, 248, 212);">Fashion</span><span class="post-date">17 APR 2023</span>
+              <p class="card-text">Genderless fashion has been around for quite some time, but it is in recent years that we have seen it become mainstream. As fashion is an ever-changing entity, we see trends coming in and out.</p>
+              <a href="./posts.html" class="btn btn-primary" style="color: #000; background-color: rgb(139, 102, 241); border-color: black; box-shadow: 2px 2px 4px #000; border-radius: 20px;">Read More</a>
+              </span>
+            </div>
+          </div>
+        </div>
+    </div>
+</article>
+    <!-- Add modal for each card -->
+  
+</main>
+<!-- Add a news api -->
+<section class="news">
+  <div class="container">
+    <h1>News</h1>
+    <div class="news-container" id="newsContainer">
+      
+    </div>
+  </div>
+</section>
+
+
+
+<!-- links to social media -->
+    <!-- Footer -->
+    <footer>
+      <div class="footerContainer"></div>
+      <div class="socialIcons">
+        <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="./posts.html">Posts</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+          <button class="colorBtn" id="colorBtn">
+          Change Background Colour
+        </button>
+      
+      <div class="footerBottom">
+        <p> Copyright &copy;2023 Designed by <span class="designer">Aiesha</span></p>
+      </div>
+    </footer>
+
+    <!-- Add Javascript link -->
+   <script src="./js/script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

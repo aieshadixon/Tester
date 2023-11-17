@@ -1,0 +1,276 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&family=Tangerine&family=VT323&display=swap');
+
+/* Add variables here */
+:root {
+  --black: #000;
+}
+
+
+body {
+    font-family: Poppins, sans-serif;
+    color: gray;
+    background-color: rgb(34, 33, 33);
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'VT323';
+  font-size: 20px;
+  padding: 20px;
+  margin: 30px 20px;
+}
+
+main {
+  background-color: #f4ebfb;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  font-family: 'VT323';
+  position: fixed;
+}
+
+/* navigation bar */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.navbar-brand {
+  color: #82acff;
+  font-family: 'VT323', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+.nav-item {
+  color:#000;
+  font-family: 'Poppins';
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  background: radial-gradient(rgb(252, 115, 239) 9%, rgb(139, 102, 241) 72%);
+  font-family: 'VT323';
+  padding: 50px;
+  margin: 20px 20px;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: rgb(139, 102, 241);
+  font-family: 'Poppins';
+  font-size: 16px;
+   border-color: var(--black);
+   box-shadow: 2px 2px 4px var(--black);
+   border-radius: 15px;
+}
+
+article {
+  margin-top: 20px;
+}
+
+.lead {
+  margin-bottom:30px;
+  font-family: 'Poppins';
+}
+
+/* Cards */
+.post-date {
+  font-size: 14px;
+  font-family: "Poppins";
+  color:rgb(100, 100, 100);
+  margin: 15px;
+  
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.card-body {
+  background-color: #ffff;
+  box-shadow: var(--black);
+  border-color: rgb(139, 102, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.card-title {
+  text-align: center;
+  font-family: 'VT323';
+  font-size: 30px;
+  color:#cc89fb;
+}
+
+.card-text {
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+
+.card-body:hover {
+  background-color: #dfe9fd;
+}
+
+/* styling card buttons */
+.btn-primary {
+  background-color: rgb(139, 102, 241);
+  color: var(--black);
+  font-size: 18px;
+  border-radius: 30px;
+  margin: 15px;
+}
+  .btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--black);
+    border-color: var(--black);
+    animation: shake 1.5s ease infinite;
+}
+
+/* Styling the news section */
+
+#newsContainer h3 {
+  font-size:16px;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins';
+}
+
+.news-container {
+  background-color: #cc89fb;
+  box-shadow: 2px 2px 4px var(--black);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#newsContainer img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin-bottom: 10px; 
+  border: 1px solid #ddd; 
+}
+
+/* styling the change background colour button */
+.colorBtn {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  color: var(--black);
+  background-color: rgb(139, 102, 241);
+  border: black;
+  box-shadow: 2px 2px 4px var(--black);
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 6px;
+}
+
+.colorBtn:hover {
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+/* styling the footer */
+footer {
+  background-color: #e7cff9;
+  
+}
+
+.footerContainer {
+  width:100%;
+  padding: 70px 30px 20px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 15px;
+  list-style: none;
+}
+
+.footerNav li a {
+  color: var(--black);
+   text-decoration: none;
+  margin: 20px;
+}
+
+.socialIcons {
+  display:flex;
+  justify-content: center;
+}
+ion-icon {
+  margin: 10px 20px;
+  height: 35px;
+  width: 35px;
+  color: var(--black);
+}
+
+.socialIcons a:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footerBottom {
+  text-align: center;
+  margin: 15px;
+}
+
+
+/* Adding animation to the buttons when hovered over */
+@keyframes shake {
+    0%{
+      transform: translateX(0);
+    }
+    25%{
+      transform: translateX(-5px);
+    }
+      
+    50%{
+      transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100%{
+      transform: translateX(5px);
+    }
+  }
+
+  /* responsive screen sizes */
+
+@media screen and(max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+}
